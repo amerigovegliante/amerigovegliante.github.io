@@ -82,6 +82,9 @@ body{
 
 .socials li:hover{
     opacity: 50%;
-    color: lightgray;
     border-bottom: 2px solid lightgray;
+}
+
+.socials li a i {
+    color: white;
 }
