@@ -1,8 +1,9 @@
 body{
-    background: url("../assets/images/bg.jpeg") no-repeat center center fixed;    
+    background: url("../assets/images/bg.jpg") no-repeat center center fixed;    
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fed0bb;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .container {
@@ -89,4 +90,5 @@ body{
 
 .socials li a i {
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
