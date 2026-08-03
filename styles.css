@@ -11,22 +11,17 @@
     --tx-color: #F6B17A;
     --hea-tx-color: #C8ACD6;
     --btn-bg-color:#E3651D;
-    --foo-bg-color: #1B1A55; 
   }
 }
 
 @media (prefers-color-scheme: light) {
     * {
-    --bg-color: #F9E8A2;
+    --bg-color: #FFFCE1;
     --sec-bg-color: #B4E1EB; 
     --pro-bg-color: #95BDD7;
-    --tx-color: black;
+    --tx-color: #000000;
     --hea-tx-color: #1B1A55;
-    --btn-bg-color:#C9BEFF;
-  }
-
-  h1,h2,h3 {
-    text-shadow: none;
+    --btn-bg-color:#EBD6FB;
   }
 }
 
@@ -40,7 +35,6 @@ h1, h2, h3{
     color: var(--hea-tx-color);
     text-align: center;
     text-decoration: underline;
-    text-shadow: 1px 1px 1px black;
 }
 
 img {
