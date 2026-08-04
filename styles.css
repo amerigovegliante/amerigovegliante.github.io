@@ -76,6 +76,7 @@ img {
     border-radius: 10px;
     background-color: var(--pro-bg-color);
     height: fit-content;
+    width: 40%;
 }
 
 .look-it-up {
@@ -137,4 +138,46 @@ h3{
 
 .animate-up:hover {
     top: -10px;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 70%;
+    }
+
+    .introduction-section p{
+        font-size: 0.8em;
+    }
+
+    .project p{
+        width: 100%;
+        font-size: 0.7em;
+        margin: none;
+    }
+
+    .project h2 {
+        font-size: 1em;
+    }
+
+    .project a {
+        font-size: 0.8em;
+    }
+
+    .section{
+        padding: 0.1em;
+        width: fit-content;
+        margin-top: 0;
+    }
+
+    .look-it-up{
+        width: 30%;
+    }
+
+    .go-up {
+        width: 20%;
+    }
+
+    .section .project {
+        width: fit-content;
+    }
 }
