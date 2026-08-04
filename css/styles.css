@@ -129,39 +129,6 @@ h3{
     background-color: var(--pro-bg-color);
 }
 
-@media (max-width: 768px) {
-    img {
-        width: 70%;
-    }
-
-    .introduction-section p{
-        font-size: 0.8em;
-    }
-
-    .project p{
-        width: 100%;
-        font-size: 0.7em;
-        margin: none;
-    }
-
-    .project h2 {
-        font-size: 1em;
-    }
-
-    .project a {
-        font-size: 0.8em;
-    }
-
-    .section{
-        padding: 0.1em;
-        width: 95%;
-    }
-
-    .look-it-up{
-        width: 30%;
-    }
-}
-
 .animate-up {
     position: relative;
     top: 0;
