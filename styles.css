@@ -5,10 +5,10 @@
 
 @media (prefers-color-scheme: dark) {
   * {
-    --bg-color: #7077A1;
+    --bg-color: #161E54;
     --sec-bg-color: #424769; 
     --pro-bg-color: #2D3250;
-    --tx-color: #F6B17A;
+    --tx-color: #FFF6F6;
     --hea-tx-color: #C8ACD6;
     --btn-bg-color:#E3651D;
   }
@@ -99,12 +99,14 @@ footer {
 
 .go-up {
     font-size: 2em;
-    color: var(--btn-bg-color);
-    text-shadow: 1px 1px 1px black;
-    background-color: var(--bg-color);
+    color: var(--tx-color);
+    background-color: var(--btn-bg-color);
     text-decoration: none;
     border: 2px solid black;
     border-radius: 10px;
+    display: block;
+    width: 5%;
+    margin: auto;
 }
 
 h1 {
