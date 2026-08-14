@@ -5,13 +5,21 @@
 
 @media (prefers-color-scheme: dark) {
   * {
-    --bg-color: #161E54;
-    --sec-bg-color: #424769; 
-    --pro-bg-color: #2D3250;
-    --tx-color: #FFF6F6;
-    --hea-tx-color: #C8ACD6;
-    --btn-bg-color:#E3651D;
+    --bg-color: #111;            /* Main bg */
+    --sec-bg-color: #333;        /* Section bg */
+    --pro-bg-color: #555;        /* Project div bg */
+    --tx-color: #fff;            /* Text color  */
+    --hea-tx-color: #fff;        /* Headings text color */
+    --btn-bg-color:#222;         /* Button bg color */
   }
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: pink;
 }
 
 @media (prefers-color-scheme: light) {
